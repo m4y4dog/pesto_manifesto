@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#content {
+    margin: 5%;
+}
+
+body {
+	font-family: Garamond, Times New Roman, serif;
+	font-size: 1.2em;
+	color: #1c67bf;
+}
+
+H1 {
+	.matemasie-regular {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+	}
+
+.bkgimage{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left:0;
+}
+
+.bkgimage img {
+    width: 100%;
+    height: auto;
+    min-height:100vh;
+    object-fit: cover;
+}
